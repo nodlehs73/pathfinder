@@ -9,24 +9,47 @@
 <body>
     <div class="navigation">
         <div class="algorithms nav">
-            <p>Algorithms</p>
+            <p>Algorithms ▼</p>
         </div>
 
         <div class="addwalls nav">
             <p>Add walls</p>
         </div>
 
+        <div class="removewalls nav">
+            <p>Remove walls</p>
+        </div>
+        <div class="visualize nav">
+            <p>Start Visualization</p>
+        </div>
+
         <div class="start nav">
             <p>Select Start</p>
         </div>
-
+        <div class="finish nav">
+            <p>Select Finish</p>
+        </div>  
         <div class="clear nav">
             <p>Clear Board</p>
         </div>
 
-        <div class="legend nav">
-            <p>Legend</p>
+    </div> 
+    <div id = 'algos'>
+        <div class = "dropdown hidden">
+            <ul>
+                <li class = "choice">Breadth-first Search</li>
+                <li class = "choice">Depth-first Search</li>
+                <li class = "choice">A* Search</li>
+            </ul>
+        </div>
+    </div> 
+
+    <div class="container">
+        <div class="grid">
+
         </div>
     </div>
+    
+    <script src = "./index.js"></script>
 </body>
 </html>
